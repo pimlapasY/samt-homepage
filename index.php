@@ -285,52 +285,52 @@ session_start();
                 <div class="carousel-item active">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p1.jpg" alt="First slide">
+                            <img class="d-block w-100" src="images/cap_drow.jpg" alt="First slide">
                         </div>
                         <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p2.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="images/liw_work.jpg" alt="Second slide">
                         </div>
                         <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p3.jpg" alt="Third slide">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p1.jpg" alt="First slide">
-                        </div>
-                        <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p2.jpg" alt="Second slide">
-                        </div>
-                        <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p3.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="images/machine3.jpg" alt="Third slide">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p1.jpg" alt="First slide">
+                            <img class="d-block w-100" src="images/5gan3.jpg" alt="First slide">
                         </div>
                         <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p2.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="images/edm_water.jpg" alt="Second slide">
                         </div>
                         <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p3.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="images/machine4.jpg" alt="Third slide">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p1.jpg" alt="First slide">
+                            <img class="d-block w-100" src="images/cap_drow.jpg" alt="First slide">
                         </div>
                         <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p2.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="images/liw_work.jpg" alt="Second slide">
                         </div>
                         <div class="col-md-4">
-                            <img class="d-block w-100" src="images/p3.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="images/machine3.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="d-block w-100" src="images/5gan3.jpg" alt="First slide">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100" src="images/center_pic.jpg" alt="Second slide">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100" src="images/sent_work.jpg" alt="Third slide">
                         </div>
                     </div>
                 </div>
