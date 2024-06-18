@@ -7,7 +7,7 @@
                 <div class="text-center">
                     <h1><b> SHIPPO ASAHI MOULDS (THAILAND)</b></h1>
                 </div>
-                <p>
+                <p class="text-center">
                     <?php
                         echo $company_des;
                         ?>
@@ -69,16 +69,16 @@
     </div>
 
     <div class="row container d-flex justify-content-center mx-auto">
-        <div class="card" style="width: 200px;">
-            <img class="card-img-top img-fluid" src="images/IAF_cer-removebg-preview.png" alt="Card image cap">
+        <div class="card bg-light border-secondary mb-3" style="width: 200px;">
+            <img class="card-img-top img-fluid" src="images/IAF_cer.png" alt="Card image cap">
             <div class="card-body text-black-50">
                 <h5 class="card-title text-center">ใบรับรอง IAF <br> MEMBER OF MULTILATERAL </h5>
                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p> -->
             </div>
         </div>
-        <div class="card" style="width: 200px;">
-            <img class="card-img-top img-fluid" src="images/JQA_cer-removebg-preview.png" alt="Card image cap">
+        <div class="card bg-light border-secondary mb-3" style="width: 200px;">
+            <img class="card-img-top img-fluid" src="images/JQA_cer.png" alt="Card image cap">
             <div class="card-body text-black-50">
                 <h5 class="card-title text-center">หมายเลขใบรับรอง <br> JQA-QMA10865
                 </h5>
@@ -86,16 +86,16 @@
                         card's content.</p> -->
             </div>
         </div>
-        <div class="card" style="width: 200px;">
-            <img class="card-img-top img-fluid" src="images/UKS_cer-removebg-preview.png" alt="Card image cap">
+        <div class="card bg-light border-secondary mb-3" style="width: 200px;">
+            <img class="card-img-top img-fluid" src="images/UKAS-cer.png" alt="Card image cap">
             <div class="card-body text-black-50">
                 <h5 class="card-title text-center">การจัดการคุณภาพ 091 </h5>
                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p> -->
             </div>
         </div>
-        <div class="card" style="width: 200px;">
-            <img class="card-img-top img-fluid" src="images/JAB_cer-removebg-preview (1).png" alt="Card image cap">
+        <div class="card bg-light border-secondary mb-3" style="width: 200px;">
+            <img class="card-img-top img-fluid" src="images/JAB_cer.jpg" alt="Card image cap">
             <div class="card-body text-black-50">
                 <h5 class="card-title text-center">ใบรับรอง JAB CM009
                 </h5>

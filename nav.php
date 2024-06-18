@@ -135,7 +135,7 @@ html {
     <div class="header_top fixed-top">
         <div class="container-fluid header_top_container">
             <a class="navbar-brand " href="index.php"><img class="w-75" src="images/logo.png"></a>
-            <a href="" class="text-white">
+            <a href="index.php" class="text-white">
                 SHIPPO ASAHI MOULDS (THAILAND)
             </a>
             <div class="contact_nav justify-content-end align-items-center">
@@ -215,14 +215,14 @@ html {
                             <li class="nav-item">
                                 <a class="nav-link <?php echo ($_SESSION['lang'] === 'TH') ? 'd-none' : ''; ?>" id="th"
                                     style="cursor:pointer;" onclick="changeLanguage('TH');">
-                                    <img src="images/thailand.png" alt="" style="width: 25px;">&nbsp; TH
+                                    <img src="images/thailand.png" alt="" style="width: 25px;">&nbsp; ไทย
                                 </a>
                             </li>
 
                             <li class="nav-item">
                                 <a class="nav-link <?php echo ($_SESSION['lang'] === 'JP') ? 'd-none' : ''; ?>" id="jp"
                                     style="cursor:pointer;" onclick="changeLanguage('JP');">
-                                    <img src="images/japan.png" alt="" style="width: 25px;">&nbsp; JP
+                                    <img src="images/japan.png" alt="" style="width: 25px;">&nbsp; 日本語
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -315,14 +315,14 @@ html {
                                 <li class="nav-item">
                                     <a class="nav-link <?php echo ($_SESSION['lang'] === 'TH') ? 'd-none' : ''; ?>"
                                         id="th" style="cursor:pointer;" onclick="changeLanguage('TH');">
-                                        <img src="images/thailand.png" alt="" style="width: 25px;">&nbsp; TH
+                                        <img src="images/thailand.png" alt="" style="width: 25px;">&nbsp; ไทย
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
                                     <a class="nav-link <?php echo ($_SESSION['lang'] === 'JP') ? 'd-none' : ''; ?>"
                                         id="jp" style="cursor:pointer;" onclick="changeLanguage('JP');">
-                                        <img src="images/japan.png" alt="" style="width: 25px;">&nbsp; JP
+                                        <img src="images/japan.png" alt="" style="width: 25px;">&nbsp; 日本語
                                     </a>
                                 </li>
                                 <li class="nav-item">

@@ -7,7 +7,7 @@
                 <div class="text-center">
                     <h1><b> SHIPPO ASAHI MOULDS (THAILAND)</b></h1>
                 </div>
-                <p>
+                <p class="text-center">
                     <?php
                         echo $company_des;
                         ?>

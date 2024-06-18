@@ -2,22 +2,68 @@
 $home = 'ホーム';
 $aboutComp = '企業情報';
 $service = '事業内容';
-$ourWork = 'Product';
+$ourWork = '製品';
 $contact = 'お問い合わせ';
 $QA = 'よくある質問';
 $acana_head = 'ACANA Online';
 $cookie = 'This website uses cookies to ensure you get the best experience on our website.';
 $accept = 'Accept';
-$recruitment ='recruitment';
-$samt_des = 'SAMT IS THE LEADING MOULDS MAKER IN THE INDUSTRY.';
-$samt = 'WELCOME TO SHIPPO ASAHI MOULDS';
+$recruitment ='採用';
+$samt_des = '';
+$samt = '';
 $acana_des = 'ARCANAは工業製品の販売サイトです。
 いらなくなった工業製品を高く、ほしい工業製品を安く手に入れることができます。
 御社の工業製品も';
-$company_des ='CREATE A WORKING ENVIRONMENT FOR EMPLOYEES TO WORKS HAPPILY.';
-$samt_benefit = 'SAMT WELFARE';
-$samt_benefit_des = 'KEEPS EMPLOYEES HAPPY';
+$company_des ='従業員が幸せに働ける職場環境を作る';
+$samt_benefit = 'SAMTの福利厚生';
+$samt_benefit_des = '従業員の幸福を保つ';
 $good_quality = '高品質';
 $here = 'こちらに';
 $can_contact = '御社の工業製品も';
+$st_h1 = '高精度金型技術';
+$st_h2 = '大型金型の製造';
+$st_h3 = 'お客様の要件に応じた製品開発';
+$st_des1 = '私たちは大手自動車部品メーカーからの依頼を受け、一流の精度要求を満たすために、設立以来培ってきた技術と最新の金型製造技術を駆使して製造しています。';
+$st_des2 = '私たちは135トンから2500トンクラスまでの幅広い生産能力を持っています。大型設備を導入しており、最大2500トンまでの大型金型を高速・高精度で加工することができます。';
+$st_des3 = '私たちは、信頼性のある金型製造技術を用いた新しい金型製造を提供する準備ができています。お客様をサポートするために、挑戦を続けてまいります。';
+$high_quality = '高品質';
+$low_price = '低価格';
+$ontime = '納期厳守';
+$numberOne = 'わたしたちはお客様に最適な価値提供を行ないます。';
+$work_des = '当社は自動車、二輪車部品を中心に、高性能・高品質・高精度の金型を設計・製造しています。
+生産能力は135t ～2500t まで幅広く対応しており、輸出実績も多数ございます。
+長年培った金型技術と提案力でお客様のお困りごとを解決し、最適なご提案をいたします。';
+$smc_service = 'SAMTは、設計から製造までの包括的なサービスを提供しています。';
+$index_h1 = 'ビジネスをよりスムーズかつ効率的に運営するお手伝いをします。';
+$index_s1 = 'すべての必要なものを1つの解決策で、サムトに揃えました。';
+$index_des =  'SAMTは産業製品の製造に必要不可欠です。私たちは「ダイカスト金型」の設計と製造を行っています。自動車部品の中でもアルミニウム部品の大量生産に不可欠なパワートレインおよびドライブライン部品の金型を製造しています。私たちの金型は高性能で高品質かつ高精度で、世界中の製造業者に納品しています。';
+$acana_h1 = 'ARCANAとは？';
+$acana_h2 = 'こんなことに困っていませんか？';
+$acana_h3 = 'ARCANAなら解決できます';
+$acana_h4 = 'ARCANA で売れるもの';
+$acana_h5 = 'ARCANAで買えるもの';
+$acana_h6 = '簡単出品、充実したサポート体制！
+無料で始められます。';
+$acana_des1 = "ARCANAはビジネスの可能性を広げるプラットフォームです。";
+$acana_des2 = '✅新規事業の販売先が見つからない<br>
+✅開発した新製品が既存顧客層にマッチしない <br>
+✅在庫にあるけれど使っていないデッドストックがある';
+$acana_des3 = '💡新規顧客開拓　<br>
+　幅広い企業や消費者が集うARCANAは、これまでリーチできなかった顧客層へのアプローチを実現します。<br>
+💡在庫解消
+<br>
+　眠っていた在庫をARCANAで販売することで、新たな収益元を生み出します。';
+$acana_des4 = '①新商品：発売したばかりの商品や未発売の商品
+<br>
+②デッドストック：未使用の製品
+　<br>
+くわしくはこちら';
+$acana_des5 = '・工具 <br>
+・部品<br>
+・スポーツ用品<br>
+・生活用品<br>
+・その他';
+$acana_des6 = 'ARCANAで売ってみませんか？<br>
+ぜひお客様のお手伝いをさせてください。';
+
 ?>

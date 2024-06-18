@@ -15,7 +15,7 @@ session_start();
     <meta name="description" content="" />
     <meta name="author" content="" />
     <?php include 'header.php'?>
-    <title>หน้าหลัก | SHIPPO ASAHI MOULDS</title>
+    <title>Home | SHIPPO ASAHI MOULDS</title>
     <link rel="icon" href="images/samt_icon.png" type="image/png">
 
     <meta name="keywords"
@@ -59,8 +59,11 @@ session_start();
     padding: 20px;
 }
 
-.color-shippo {
-    color: #003471 !important;
+.gradient-background-shippo-white {
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
+    /* color: #000000 !important; */
+    width: fit-content;
+    padding: 20px;
 }
 </style>
 
@@ -70,15 +73,16 @@ session_start();
     $(document).ready(function() {
         $('#customCarousel1').on('slide.bs.carousel', function(e) {
             var nextIndex = $(e.relatedTarget).index();
+            /*  if (nextIndex === 1) { // Check if sliding to the second slide (index 1)
+                 $('.hero_area').css('background',
+                     'linear-gradient(to bottom, rgba(107, 154, 196, 0.5), rgba(107, 154, 196, 0.1)), url(images/hero-bg.jpg)'
+                 );
+                 $('.hero_area').css('background-size', 'cover');
+
+             } else  */
             if (nextIndex === 1) { // Check if sliding to the second slide (index 1)
                 $('.hero_area').css('background',
-                    'linear-gradient(to bottom, rgba(107, 154, 196, 0.5), rgba(107, 154, 196, 0.1)), url(images/hero-bg.jpg)'
-                );
-                $('.hero_area').css('background-size', 'cover');
-
-            } else if (nextIndex === 2) { // Check if sliding to the second slide (index 1)
-                $('.hero_area').css('background',
-                    'linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)), url(images/website-acana.png)'
+                    'linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)), url(images/acana_cover.png)'
                 );
 
                 $('.hero_area').css('background-size', 'cover');
@@ -120,7 +124,7 @@ session_start();
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <div class="container ">
                             <div class="detail-box">
                                 <h1 class="text-white">
@@ -140,21 +144,25 @@ session_start();
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="carousel-item">
                         <div class="container">
-                            <div class="detail-box w-75 mx-auto" style=" width:fit-content; padding: 20px;">
-                                <h2 class="text-dark"><b>
-                                        What Is? <span class="color-shippo">Acana Stock</span></b>
+                            <div class="detail-box w-75 mx-auto gradient-background-shippo-white color-shippo"
+                                style=" width:fit-content; padding: 20px;">
+                                <h2 class="text-dark">
+                                    <b>
+                                        What Is? <span class="color-shippo">Acana Stock</span>
+                                        <img src="images/arthi2.png" alt="" style="width: 50px;"><br><br>
+                                    </b>
                                 </h2>
-                                <p class="gradient-background-shippo color-shippo" style="font-size: 1.7vh;">
-                                    <?php echo $acana_des; ?>
+                                <p class="" style="font-size: 1.7vh;">
+                                    &nbsp;<?php echo $acana_des; ?>
                                 </p>
-                                <h4><?php echo $can_contact; ?> <a href="https://arcana-onlineshop.com/"
-                                        target="_blank">
+                                <h4 class="gradient-background-shippo-white">
+                                    <?php echo $can_contact; ?>
+                                    <a href="https://arcana-onlineshop.com/" target="_blank">
                                         <?php echo $here; ?></a>
                                 </h4>
-
                                 <a href="acana_info.php" class="btn btn-info">
                                     <i class="fa-solid fa-arrow-right fa-beat"></i> Read More
                                 </a>
@@ -188,12 +196,15 @@ session_start();
                         <div class="heading_container">
                             <h2>Welcome to <span>SAMT</span></h2>
                         </div>
-                        <p>
+                        <h5>
                             SAMT เป็นผู้ผลิตแม่พิมพ์ชั้นนำในอุตสาหกรรม
-                        </p>
-                        <p>
+                        </h5>
+                        <h5>
                             WE ARE THE TOP MANUFACTURING OF DIE CASTING MOULDS
-                        </p>
+                        </h5>
+                        <h5>
+                            お客様にとってのベストバリューを提供いたします
+                        </h5>
                         <a href="about.php">
                             Read More
                         </a>
@@ -208,6 +219,19 @@ session_start();
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="images/content2.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="heading_container">
+                        <h2 style="text-align: start;"><span><?php echo $index_h1; ?></span></h2>
+                    </div>
+                    <h4><?php echo $index_s1; ?></h4><br>
+                    <p>&nbsp;<?php echo $index_des; ?></p>
+                </div>
+            </div>
+            <br>
         </div>
     </section>
 
@@ -219,10 +243,10 @@ session_start();
         <div class="container">
             <div class="heading_container heading_center">
                 <h2>
-                    Our Work
+                    Our Service
                 </h2>
                 <h3>
-                    SAMT ให้บริการแบบครบวงจร ตั้งแต่การออกแบบไปจนถึงการผลิต
+                    <?php echo $smc_service; ?>
                 </h3>
             </div>
             <div class="carousel-wrap ">
@@ -347,14 +371,7 @@ session_start();
         </div>
         <div class="container heading_container heading_start">
             <h5 class="mb-5">
-                บริษัทของเราผลิตแม่พิมพ์หล่ออลูมิเนียมสำหรับชิ้นส่วนรถยนต์และรถจักรยานยนต์
-                เป็นการผลิตแม่พิมพ์ฉีดอลูมิเนียมที่สามารถดำเนินการผลิตแบบครบวงจรตั้งแต่การออกแบบไปจนถึงการประกอบแม่พิมพ์
-                และการทดสอบแม่พิมพ์ (QC) เรามีกำลังการผลิตที่หลากหลายตั้งแต่ระดับ 135 ตัน ถึง 2500 ตัน
-                นอกจากนี้เรายังสามารถผลิตจุดที่ลึกพิเศษและช่องแคบพิเศษ ตามรูปแบบที่ต้องการ
-                เพื่อหล่ออลูมิเนียมออกมาเป็นผลิตภัณฑ์ที่แตกต่าง
-                โดยใช้เครื่องจักรพิเศษและขั้นตอนที่เราออกแบบอย่างละเอียด
-                เพื่อตอบสนองต่อความต้องการที่หลากหลายของลูกค้า
-                เราจึงเป็นที่ยอมรับในฐานะผู้ผลิตแม่พิมพ์ฉีดอลูมิเนียมชั้นนำ
+                &nbsp; <?php echo $work_des; ?>
             </h5>
         </div>
     </section>
@@ -377,12 +394,10 @@ session_start();
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    กำลังการผลิตแม่พิมพ์ขนาดใหญ่
+                                    <?php echo $st_h1; ?>
                                 </h5>
-                                <p>
-                                    เรามีกำลังการผลิตที่หลากหลายตั้งแต่ระดับ 135 ตันถึง 2500 ตัน
-                                    เรามีเครื่องจักรและอุปกรณ์ขนาดใหญ่ ที่สามารถประมวลผลแม่พิมพ์ขนาดใหญ่ได้ถึง 2500 ตัน
-                                    ด้วยความเร็วสูงและความแม่นยำสูงและมีกระบวนการผลิตที่ดีที่สุด
+                                <p class="text-start">
+                                    <?php echo $st_des1; ?>
                                 </p>
                             </div>
                         </div>
@@ -395,13 +410,10 @@ session_start();
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    เทคโนโลยีผลิตแม่พิมพ์ <br>ความแม่นยำสูง
+                                    <?php echo $st_h2; ?>
                                 </h5>
-                                <p>
-                                    ผู้ผลิตชิ้นส่วนรถยนต์รายใหญ่มีความต้องการคุณภาพการผลิตที่แม่นยำเป็นอย่างมาก
-                                    และเพื่อให้เป็นไปตามข้อกำหนดด้านความแม่นยำ
-                                    เราจึงผลิตด้วยทักษะและเทคโนโลยีการผลิตแม่พิมพ์ที่ดีที่สุด
-                                    ที่ได้ทำมาอย่างต่อเนื่องและยาวนาน
+                                <p class="text-start">
+                                    <?php echo $st_des2; ?>
                                 </p>
                             </div>
                         </div>
@@ -413,11 +425,10 @@ session_start();
                             </div>
                             <div class="detail-box">
                                 <h5>
-                                    พัฒนาผลิตภัณฑ์ตามยุคตามสมัย
+                                    <?php echo $st_h3; ?>
                                 </h5>
-                                <p>
-                                    เรายินดีนำเสนอในส่วนของการผลิตแม่พิมพ์แบบใหม่ด้วยเทคโนโลยีการผลิตแม่พิมพ์ที่เชื่อถือได้
-                                    ให้เป็นรูปทรงตามแบบที่ลูกค้าต้องการ เพื่อท้าทายความสามารถของเราต่อไป
+                                <p class="text-start">
+                                    <?php echo $st_des3; ?>
                                 </p>
                             </div>
                         </div>
@@ -425,7 +436,7 @@ session_start();
 
                 </div>
                 <div class="btn-box">
-                    <a href="">
+                    <a href="product.php">
                         Read More
                     </a>
                 </div>
@@ -441,7 +452,7 @@ session_start();
                                 </div>
                                 <div class="detail-box">
                                     <h5>
-                                        คุณภาพสูง
+                                        <?php echo $high_quality; ?>
                                     </h5>
                                     <p>
 
@@ -456,7 +467,7 @@ session_start();
                                 </div>
                                 <div class="detail-box">
                                     <h5>
-                                        ราคาประหยัด
+                                        <?php echo $low_price; ?>
                                     </h5>
                                     <p>
 
@@ -472,7 +483,7 @@ session_start();
                                 </div>
                                 <div class="detail-box">
                                     <h5>
-                                        ส่งมอบตรงเวลา
+                                        <?php echo $ontime; ?>
                                     </h5>
                                     <p>
 
@@ -483,9 +494,7 @@ session_start();
                     </div>
                     <div class="heading_container heading_center mt-4">
                         <h3>
-                            สู่การเป็นผู้ผลิตแม่พิมพ์ฉีดอลูมิเนียม อันดับ 1 ในแถบเอเชียตะวันออกเฉียงใต้ <br> ด้วยคุณภาพ
-                            ราคาประหยัด
-                            และส่งมอบตรงเวลา
+                            <?php echo $numberOne; ?>
                         </h3>
                     </div>
                 </div>

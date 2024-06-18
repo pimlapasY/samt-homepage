@@ -19,7 +19,10 @@
                                                  <img src="images/client.jpg" alt="" />
                                              </div>
                                              <h5>
-                                                 Alex Jonson<br> <?php for($i = 1 ; $i<=5 ; $i++){
+                                                 Alex Jonson
+                                             </h5>
+
+                                             <h5> <?php for($i = 1 ; $i<=5 ; $i++){
                                                     echo '<i class="fa-solid fa-star fa-beat" style="color: #FFD43B;"></i>';
                                                  } ?>
                                              </h5>
@@ -43,7 +46,9 @@
                                                  <img src="images/client.jpg" alt="" />
                                              </div>
                                              <h5>
-                                                 Alex Jonson <?php for($i = 1 ; $i<=5 ; $i++){
+                                                 Alex Jonson
+                                             </h5>
+                                             <h5> <?php for($i = 1 ; $i<=5 ; $i++){
                                                     echo '<i class="fa-solid fa-star fa-beat" style="color: #FFD43B;"></i>';
                                                  } ?>
                                              </h5>
@@ -67,7 +72,9 @@
                                                  <img src="images/client.jpg" alt="" />
                                              </div>
                                              <h5>
-                                                 Alex Jonson <?php for($i = 1 ; $i<=5 ; $i++){
+                                                 Alex Jonson
+                                             </h5>
+                                             <h5> <?php for($i = 1 ; $i<=5 ; $i++){
                                                     echo '<i class="fa-solid fa-star fa-beat" style="color: #FFD43B;"></i>';
                                                  } ?>
                                              </h5>

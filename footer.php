@@ -143,7 +143,7 @@
  <!-- footer section -->
  <footer class="footer_section">
      <div class="container">
-         <p class="text-black-50">
+         <p class="text-black-50 text-center">
              &copy; 2024</span> Shippo Asahi Moulds (Thailand) Co., Ltd. All Rights Reserved.</a>
          </p>
      </div>

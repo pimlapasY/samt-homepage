@@ -86,7 +86,7 @@
     </section>
     <?php } ?>
     <br>
-    <section class="portfolio_section" id="benefit">
+    <section class="contact_section" id="benefit">
         <div class="container">
             <div class="heading_container heading_center">
                 <h2>
@@ -116,7 +116,7 @@
                     <ul class="list-group list-group-item-primary">
                         <li class="list-group-item"><i class="fa-solid fa-sack-dollar"></i> โบนัส</li>
                         <li class="list-group-item"><i class="fa-solid fa-money-bill-1-wave"></i> ค่าครองชีพ</li>
-                        <li class="list-group-item"><i class="fa-solid fa-car-side"></i> รถตู้โดยสาร </li>
+                        <li class="list-group-item"><i class="fa-solid fa-van-shuttle"></i> รถตู้โดยสาร </li>
                         <li class="list-group-item"><i class="fa-solid fa-stethoscope"></i> ตรวจสุขภาพประจำปี</li>
                         <li class="list-group-item"><i class="fa-solid fa-cake-candles"></i> เค้กวันเกิด</li>
                     </ul>
@@ -148,7 +148,7 @@
                     <ul class="list-group list-group-item-primary">
                         <li class="list-group-item"><i class="fa-solid fa-sack-dollar"></i> Bonus</li>
                         <li class="list-group-item"><i class="fa-solid fa-money-bill-1-wave"></i> Living Allowance</li>
-                        <li class="list-group-item"><i class="fa-solid fa-car-side"></i> Passenger Van</li>
+                        <li class="list-group-item"><i class="fa-solid fa-van-shuttle"></i> Passenger Van</li>
                         <li class="list-group-item"><i class="fa-solid fa-stethoscope"></i> Annual Health Check</li>
                         <li class="list-group-item"><i class="fa-solid fa-cake-candles"></i> Birthday Cake</li>
                     </ul>
@@ -183,7 +183,7 @@
                     <ul class="list-group list-group-item-primary">
                         <li class="list-group-item"><i class="fa-solid fa-sack-dollar"></i> Bonus</li>
                         <li class="list-group-item"><i class="fa-solid fa-money-bill-1-wave"></i> Living Allowance</li>
-                        <li class="list-group-item"><i class="fa-solid fa-car-side"></i> Passenger Van</li>
+                        <li class="list-group-item"><i class="fa-solid fa-van-shuttle"></i> Passenger Van</li>
                         <li class="list-group-item"><i class="fa-solid fa-stethoscope"></i> Annual Health Check</li>
                         <li class="list-group-item"><i class="fa-solid fa-cake-candles"></i> Birthday Cake</li>
                     </ul>

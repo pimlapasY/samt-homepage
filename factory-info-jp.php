@@ -13,7 +13,7 @@ th {
                 <div class="text-center">
                     <h1><b> SHIPPO ASAHI MOULDS</b></h1>
                 </div>
-                <p>
+                <p class="text-center">
                     <?php
                         echo 'みんなが楽しくなる会社';
                         ?>
